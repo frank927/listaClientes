@@ -1,0 +1,80 @@
+[debug] [2022-02-06T21:17:44.660Z] ----------------------------------------------------------------------
+[debug] [2022-02-06T21:17:44.668Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\frank\.npm-global\node_modules\firebase-tools\lib\bin\firebase.js init --token %FIREBASE_TOKEN%
+[debug] [2022-02-06T21:17:44.669Z] CLI Version:   10.1.4
+[debug] [2022-02-06T21:17:44.670Z] Platform:      win32
+[debug] [2022-02-06T21:17:44.670Z] Node Version:  v14.16.1
+[debug] [2022-02-06T21:17:44.674Z] Time:          Sun Feb 06 2022 16:17:44 GMT-0500 (hora estándar de Cuba)
+[debug] [2022-02-06T21:17:44.675Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-02-06T21:17:44.685Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2022-02-06T21:17:44.779Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-02-06T21:17:44.780Z] > authorizing via --token option
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\programacion\Practica\Project_1\Proyect
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-02-06T21:18:29.820Z] > refreshing access token with scopes: []
+[debug] [2022-02-06T21:18:29.824Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-02-06T21:18:30.799Z] <<< HTTP RESPONSE 400 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","date":"Sun, 06 Feb 2022 21:12:31 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-02-06T21:18:30.805Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2022-02-06T21:18:37.457Z] Unable to parse JSON: SyntaxError: Unexpected token < in JSON at position 0
+[debug] [2022-02-06T21:18:37.460Z] FirebaseError: Unable to parse JSON: SyntaxError: Unexpected token < in JSON at position 0
+    at RetryOperation._fn (C:\Users\frank\.npm-global\node_modules\firebase-tools\lib\apiv2.js:257:39)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[error] 
+[error] Error: Failed to list Firebase projects. See firebase-debug.log for more info.
+[debug] [2022-02-06T21:19:19.047Z] ----------------------------------------------------------------------
+[debug] [2022-02-06T21:19:19.057Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\frank\.npm-global\node_modules\firebase-tools\lib\bin\firebase.js init --token %FIREBASE_TOKEN%
+[debug] [2022-02-06T21:19:19.058Z] CLI Version:   10.1.4
+[debug] [2022-02-06T21:19:19.059Z] Platform:      win32
+[debug] [2022-02-06T21:19:19.059Z] Node Version:  v14.16.1
+[debug] [2022-02-06T21:19:19.062Z] Time:          Sun Feb 06 2022 16:19:19 GMT-0500 (hora estándar de Cuba)
+[debug] [2022-02-06T21:19:19.063Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-02-06T21:19:19.074Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2022-02-06T21:19:19.167Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-02-06T21:19:19.168Z] > authorizing via --token option
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\programacion\Practica\Project_1\Proyect
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-02-06T21:19:50.491Z] > refreshing access token with scopes: []
+[debug] [2022-02-06T21:19:50.493Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-02-06T21:19:51.623Z] <<< HTTP RESPONSE 400 {"pragma":"no-cache","date":"Sun, 06 Feb 2022 21:13:52 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-02-06T21:19:51.628Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2022-02-06T21:19:55.240Z] Unable to parse JSON: SyntaxError: Unexpected token < in JSON at position 0
+[debug] [2022-02-06T21:19:55.243Z] FirebaseError: Unable to parse JSON: SyntaxError: Unexpected token < in JSON at position 0
+    at RetryOperation._fn (C:\Users\frank\.npm-global\node_modules\firebase-tools\lib\apiv2.js:257:39)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[error] 
+[error] Error: Failed to list Firebase projects. See firebase-debug.log for more info.

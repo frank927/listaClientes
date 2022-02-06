@@ -1,0 +1,79 @@
+<div class="container">
+<mat-form-field>
+  <input  matInput placeholder="Establecimiento" name="establecimiento" [(ngModel)]="this.cliente.selected.establecimiento" >
+
+</mat-form-field>
+<mat-form-field required>
+  <mat-label>Sector</mat-label>
+    <mat-select name="sector" [(ngModel)]="this.cliente.selected.sector">
+      <mat-option value="Agencia de viajes">Agencia de viajes</mat-option>
+      <mat-option value="Bar">Bar</mat-option>
+      <mat-option value="Belleza">Belleza</mat-option>
+      <mat-option value="Restaurante">Restaurante</mat-option>
+      <mat-option value="Boutique">Boutique</mat-option>
+      <mat-option value="Guest house">Guest house</mat-option>
+      <mat-option value="Otro">Otro</mat-option>
+    </mat-select>
+    <mat-hint align="end">Seleccione</mat-hint>
+</mat-form-field>
+<mat-form-field   >
+  <input  matInput  placeholder="Dirección" name="direccion" [(ngModel)]="this.cliente.selected.direccion" >
+
+</mat-form-field>
+<mat-form-field>
+  <input matInput placeholder="Email" name="email" [(ngModel)]="this.cliente.selected.email" >
+</mat-form-field>
+<mat-form-field>
+  <input matInput placeholder="Teléfono Fijo" name="telefonofijo" [(ngModel)]="this.cliente.selected.telefonofijo" >
+</mat-form-field>
+<mat-form-field>
+  <input matInput placeholder="Celular" name="celular" [(ngModel)]="this.cliente.selected.celular" >
+</mat-form-field>
+<mat-form-field>
+  <input matInput placeholder="Contacto" name="contacto" [(ngModel)]="this.cliente.selected.contacto" >
+</mat-form-field>
+
+<mat-form-field>
+  <mat-label>Segmentación</mat-label>
+  <mat-select name="segmentacion" [(ngModel)]="this.cliente.selected.segmentacion">
+    <mat-option value="Low">Low</mat-option>
+    <mat-option value="Medium">Medium</mat-option>
+    <mat-option value="High">High</mat-option>
+  </mat-select>
+  <mat-hint align="end">Seleccione</mat-hint>
+</mat-form-field>
+
+<mat-form-field >
+  <input matInput placeholder="Fecha de Contacto" name="fechaDcontacto" [(ngModel)]="this.cliente.selected.fechaDcontacto" >
+</mat-form-field>
+
+
+<mat-form-field>
+  <mat-label>Canal</mat-label>
+  <mat-select name="canal" [(ngModel)]="this.cliente.selected.canal">
+    <mat-option value="Llamada telefónica">Llamada telefónica</mat-option>
+    <mat-option value="Email">Email</mat-option>
+    <mat-option value="WhatsApp">WhatsApp</mat-option>
+    <mat-option value="Personal">Personal</mat-option>
+
+  </mat-select>
+  <mat-hint align="end">Seleccione</mat-hint>
+</mat-form-field>
+<mat-form-field>
+  <mat-label>Registro</mat-label>
+  <mat-select name="registro" [(ngModel)]="this.cliente.selected.registro">
+    <mat-option value="Si">Si</mat-option>
+    <mat-option value="No">No</mat-option>
+    <mat-option value="En proceso">En proceso</mat-option>
+
+
+  </mat-select>
+  <mat-hint align="end">Seleccione</mat-hint>
+</mat-form-field>
+<mat-form-field>
+  <input matInput placeholder="Comentrios" name="comentario" [(ngModel)]="this.cliente.selected.comentario" >
+</mat-form-field>
+<button mat-flat-button color="primary" (click)="onSaveForm()">
+  <mat-icon>save</mat-icon>Guardar
+</button>
+</div>
